@@ -8,7 +8,7 @@ letters = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567
 
 
 length = int(input("¿Qué tan larga quieres tu contraseña?"))
-result = "12"
+result = ""
 for i in range(length):
 
     result += random.choice(letters)
